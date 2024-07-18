@@ -33,7 +33,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="service-item" onclick="alert('Konsul dengan Dokter Harus Login!');"
+                    <div class="service-item" onclick="location.href='{{ url('/konsultasi') }}'"
                         style="margin-bottom: 2rem; padding: 2rem; border-radius: 10px; background-color: #f9f9f9; cursor: pointer; transition: transform 0.3s, box-shadow 0.3s;">
                         <div class="service-icon" style="font-size: 3rem; color: #0072ff; margin-bottom: 1rem;">💬
                         </div>
@@ -45,7 +45,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="service-item" onclick="alert('Toko Kesehatan Harus Login!');"
+                    <div class="service-item" onclick="location.href='{{ url('/obat') }}'"
                         style="margin-bottom: 2rem; padding: 2rem; border-radius: 10px; background-color: #f9f9f9; cursor: pointer; transition: transform 0.3s, box-shadow 0.3s;">
                         <div class="service-icon" style="font-size: 3rem; color: #0072ff; margin-bottom: 1rem;">🏪
                         </div>
@@ -57,7 +57,7 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="service-item" onclick="alert('Info Terkini Kesehatan Harus Login!');"
+                    <div class="service-item" onclick="location.href='{{ url('/info') }}'"
                         style="margin-bottom: 2rem; padding: 2rem; border-radius: 10px; background-color: #f9f9f9; cursor: pointer; transition: transform 0.3s, box-shadow 0.3s;">
                         <div class="service-icon" style="font-size: 3rem; color: #0072ff; margin-bottom: 1rem;">📋
                         </div>
