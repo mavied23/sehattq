@@ -25,6 +25,10 @@ class HomeController extends Controller
     {
         return view('awal');
     }
+    public function kebijakan()
+    {
+        return view('kebijakan');
+    }
     public function pesan()
     {
         $dokter = Dokter::all();
