@@ -74,8 +74,13 @@
         style="background-color: #3a3a3a; color: #ffffff; padding: 1rem 0; text-align: center; box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);">
         <div class="container">
             <p>© 2024 Sehatqu Apotik Online. All rights reserved.</p>
+kebijakan
+            <div onclick="location.href='{{ url('/tentang') }}'"><p><a href="#" style="color: #ffffff; text-decoration: none;">Tentang Kami</a></div>
+            <div onclick="location.href='{{ url('/kebijakan')}}'"> <a href="#"style="color: #ffffff; text-decoration: none;">Kebijakan Privasi</a></p> </div>
+
             <div onclick="location.href='{{ url('/tentang') }}'"><p><a href="#" style="color: #ffffff; text-decoration: none;">Tentang Kami</a></div> | <a href="#"
                     style="color: #ffffff; text-decoration: none;">Kebijakan Privasi</a></p>
+
         </div>
     </footer>
 

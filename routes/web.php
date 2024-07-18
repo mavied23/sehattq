@@ -22,7 +22,7 @@ use App\Http\Controllers\TransaksiController;
 */
 
 Route::get('/', [HomeController::class, 'awal'])->name('login')->middleware('guest');
-
+Route::get('/kebijakan', [HomeController::class, 'kebijakan']);
 //auth user
 Route::get('/login', [UserController::class, 'index'])->middleware('guest');
 Route::post('/login', [UserController::class, 'loginproses']);
@@ -105,4 +105,10 @@ Route::get('/info', function () {
 Route::get('/tentang', function () {
     return view('tentang');
 });
+
+
+Route::get('/kebijakan', function () {
+    return view('kebijakan');
+});
+
 
