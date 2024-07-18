@@ -52,8 +52,7 @@
                         <div class="service-title" style="font-size: 1.5rem; font-weight: bold; color: #333333;">Toko
                             Kesehatan</div>
                         <div class="service-description" style="font-size: 1rem; color: #666666;">Beli obat dan alat
-                            kesehatan dengan mudah dan
-                            aman.</div>
+                            kesehatan dengan mudah dan aman.</div>
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -75,8 +74,8 @@
         style="background-color: #3a3a3a; color: #ffffff; padding: 1rem 0; text-align: center; box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);">
         <div class="container">
             <p>© 2024 Sehatqu Apotik Online. All rights reserved.</p>
-            <p><a href="#" style="color: #ffffff; text-decoration: none;">Tentang Kami</a> | <a href="#"
-                    style="color: #ffffff; text-decoration: none;">Kebijakan Privasi</a></p>
+            <div onclick="location.href='{{ url('/tentang') }}'"><p><a href="#" style="color: #ffffff; text-decoration: none;">Tentang Kami</a></div>
+            <div onclick="location.href='{{ url('/kebijakan')}}'"> <a href="#"style="color: #ffffff; text-decoration: none;">Kebijakan Privasi</a></p> </div>
         </div>
     </footer>
 
