@@ -75,3 +75,7 @@ Route::get('/transaksi/{id}/hapus', [TransaksiController::class, 'destroy']);
 Route::get('/admin', [AuthController::class, 'index']);
 Route::post('/savelogin', [AuthController::class, 'loginproses']);
 Route::post('/logout', [AuthController::class, 'logout']);
+
+Route::get('/info', function () {
+    return view('info');
+});
