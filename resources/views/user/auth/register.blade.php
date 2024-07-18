@@ -35,7 +35,7 @@
                 <input type="password" id="password" name="password"
                     style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px;" required>
             </div>
-            <button type="submit" class="btn btn-primary">Register</button>
+            <button type="submit" style="width: 100%; padding: 12px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; font-weight: bold;">Register</button>
         </form>
     </div>
 </body>
