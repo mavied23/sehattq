@@ -106,7 +106,9 @@ Route::get('/tentang', function () {
     return view('tentang');
 });
 
+
 Route::get('/kebijakan', function () {
     return view('kebijakan');
 });
+
 
