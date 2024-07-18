@@ -76,6 +76,7 @@ Route::get('/admin', [AuthController::class, 'index']);
 Route::post('/savelogin', [AuthController::class, 'loginproses']);
 Route::post('/logout', [AuthController::class, 'logout']);
 
+infoo
 Route::get('/info', function (){
     return view('info');
 });
@@ -97,3 +98,8 @@ Route::get('/artikel5', function (){
 Route::get('/artikel6', function (){
     return view('artikel6');
 });
+
+Route::get('/info', function () {
+    return view('info');
+});
+main
