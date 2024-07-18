@@ -52,8 +52,7 @@
                         <div class="service-title" style="font-size: 1.5rem; font-weight: bold; color: #333333;">Toko
                             Kesehatan</div>
                         <div class="service-description" style="font-size: 1rem; color: #666666;">Beli obat dan alat
-                            kesehatan dengan mudah dan
-                            aman.</div>
+                            kesehatan dengan mudah dan aman.</div>
                     </div>
                 </div>
                 <div class="col-md-4">
