@@ -33,7 +33,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="service-item" onclick="alert('Konsul dengan Dokter Harus Login!');"
+                    <div class="service-item" onclick="location.href='{{ url('/konsultasi') }}'"
                         style="margin-bottom: 2rem; padding: 2rem; border-radius: 10px; background-color: #f9f9f9; cursor: pointer; transition: transform 0.3s, box-shadow 0.3s;">
                         <div class="service-icon" style="font-size: 3rem; color: #0072ff; margin-bottom: 1rem;">💬
                         </div>
@@ -45,19 +45,18 @@
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="service-item" onclick="alert('Toko Kesehatan Harus Login!');"
+                    <div class="service-item" onclick="location.href='{{ url('/obat') }}'"
                         style="margin-bottom: 2rem; padding: 2rem; border-radius: 10px; background-color: #f9f9f9; cursor: pointer; transition: transform 0.3s, box-shadow 0.3s;">
                         <div class="service-icon" style="font-size: 3rem; color: #0072ff; margin-bottom: 1rem;">🏪
                         </div>
                         <div class="service-title" style="font-size: 1.5rem; font-weight: bold; color: #333333;">Toko
                             Kesehatan</div>
                         <div class="service-description" style="font-size: 1rem; color: #666666;">Beli obat dan alat
-                            kesehatan dengan mudah dan
-                            aman.</div>
+                            kesehatan dengan mudah dan aman.</div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="service-item" onclick="alert('Info Terkini Kesehatan Harus Login!');"
+                    <div class="service-item" onclick="location.href='{{ url('/info') }}'"
                         style="margin-bottom: 2rem; padding: 2rem; border-radius: 10px; background-color: #f9f9f9; cursor: pointer; transition: transform 0.3s, box-shadow 0.3s;">
                         <div class="service-icon" style="font-size: 3rem; color: #0072ff; margin-bottom: 1rem;">📋
                         </div>

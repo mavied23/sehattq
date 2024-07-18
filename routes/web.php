@@ -75,3 +75,25 @@ Route::get('/transaksi/{id}/hapus', [TransaksiController::class, 'destroy']);
 Route::get('/admin', [AuthController::class, 'index']);
 Route::post('/savelogin', [AuthController::class, 'loginproses']);
 Route::post('/logout', [AuthController::class, 'logout']);
+
+Route::get('/info', function (){
+    return view('info');
+});
+Route::get('/artikel1', function (){
+    return view('artikel1');
+});
+Route::get('/artikel2', function (){
+    return view('artikel2');
+});
+Route::get('/artikel3', function (){
+    return view('artikel3');
+});
+Route::get('/artikel4', function (){
+    return view('artikel4');
+});
+Route::get('/artikel5', function (){
+    return view('artikel5');
+});
+Route::get('/artikel6', function (){
+    return view('artikel6');
+});
